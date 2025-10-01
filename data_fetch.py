@@ -33,17 +33,26 @@ async def safe_request(
     url: str,
     params: Optional[Dict[str, Any]] = None,
 ) -> Optional[Dict[str, Any]]:
-    """Perform GET request with retries + exponential backoff."""
+    """
+    Perform GET request with retries + exponential backoff.
+
+    Args:
+        session (aiohttp.ClientSession): active HTTP session
+        url (str): request URL
+        params (dict, optional): query params
+
+    Returns:
+        dict or None: parsed JSON on success
+    """
     for i in range(3):
         try:
             async with session.get(url, params=params, headers=POLYGON_HEADERS, timeout=10) as resp:
                 if resp.status == 200:
                     return await resp.json()
                 log.warning(f"Retry {i+1} for {url} (status {resp.status})")
-                await asyncio.sleep(2**i)
         except Exception as e:
             log.error(f"Request error {url}: {e}")
-            await asyncio.sleep(2**i)
+        await asyncio.sleep(2**i)
     return None
 
 
@@ -51,32 +60,52 @@ async def safe_request(
 # ALPACA (Equities Data)
 # ==============================
 async def fetch_alpaca_bars(
-    session: aiohttp.ClientSession, symbol: str, timeframe: str = "1Min", limit: int = 100
+    session: aiohttp.ClientSession,
+    symbol: str,
+    timeframe: str = "1Min",
+    limit: int = 100,
 ) -> pd.DataFrame:
     """Fetch OHLCV bars from Alpaca."""
     url = f"{ALPACA_DATA_URL}/stocks/{symbol}/bars"
     params = {"timeframe": timeframe, "limit": limit}
     auth = aiohttp.BasicAuth(ALPACA_API_KEY, ALPACA_SECRET_KEY)
-    async with session.get(url, params=params, auth=auth, timeout=10) as resp:
-        data = await resp.json()
-        bars = pd.DataFrame(data.get("bars", []))
-        if bars.empty:
-            return pd.DataFrame()
-        bars.rename(
-            columns={"o": "open", "h": "high", "l": "low", "c": "close", "v": "volume", "t": "timestamp"},
-            inplace=True,
-        )
-        bars["timestamp"] = pd.to_datetime(bars["timestamp"], errors="coerce")
-        return bars
+
+    try:
+        async with session.get(url, params=params, auth=auth, timeout=10) as resp:
+            if resp.status != 200:
+                log.error(f"Alpaca bars error {resp.status}: {await resp.text()}")
+                return pd.DataFrame()
+            data = await resp.json()
+    except Exception as e:
+        log.error(f"Alpaca bars request failed: {e}")
+        return pd.DataFrame()
+
+    bars = pd.DataFrame(data.get("bars", []))
+    if bars.empty:
+        return pd.DataFrame()
+
+    bars.rename(
+        columns={"o": "open", "h": "high", "l": "low", "c": "close", "v": "volume", "t": "timestamp"},
+        inplace=True,
+    )
+    bars["timestamp"] = pd.to_datetime(bars["timestamp"], errors="coerce")
+    return bars
 
 
 async def fetch_alpaca_quote(session: aiohttp.ClientSession, symbol: str) -> Dict[str, Any]:
     """Fetch latest equity quote from Alpaca."""
     url = f"{ALPACA_DATA_URL}/stocks/{symbol}/quotes/latest"
     auth = aiohttp.BasicAuth(ALPACA_API_KEY, ALPACA_SECRET_KEY)
-    async with session.get(url, auth=auth, timeout=10) as resp:
-        data = await resp.json()
-        return data.get("quote", {}) or {}
+    try:
+        async with session.get(url, auth=auth, timeout=10) as resp:
+            if resp.status != 200:
+                log.error(f"Alpaca quote error {resp.status}")
+                return {}
+            data = await resp.json()
+            return data.get("quote", {}) or {}
+    except Exception as e:
+        log.error(f"Alpaca quote request failed: {e}")
+        return {}
 
 
 async def fetch_alpaca_news(session: aiohttp.ClientSession, symbol: str, limit: int = 5) -> List[Dict[str, Any]]:
@@ -84,9 +113,16 @@ async def fetch_alpaca_news(session: aiohttp.ClientSession, symbol: str, limit: 
     url = f"{ALPACA_DATA_URL}/news"
     params = {"symbols": symbol, "limit": limit}
     auth = aiohttp.BasicAuth(ALPACA_API_KEY, ALPACA_SECRET_KEY)
-    async with session.get(url, params=params, auth=auth, timeout=10) as resp:
-        data = await resp.json()
-        return data.get("news", []) or []
+    try:
+        async with session.get(url, params=params, auth=auth, timeout=10) as resp:
+            if resp.status != 200:
+                log.error(f"Alpaca news error {resp.status}")
+                return []
+            data = await resp.json()
+            return data.get("news", []) or []
+    except Exception as e:
+        log.error(f"Alpaca news request failed: {e}")
+        return []
 
 
 # ==============================
@@ -109,23 +145,19 @@ async def fetch_polygon_snapshot(session: aiohttp.ClientSession, option_symbol: 
 async def fetch_polygon_iv(session: aiohttp.ClientSession, symbol: str) -> Dict[str, Any]:
     """
     Placeholder for implied volatility stats.
-    TODO: Polygon deprecated this endpoint — implement IV rank/percentile
-    using `options_analytics.py` instead.
+    TODO: Replace with options_analytics calculations.
     """
-    url = f"{POLYGON_BASE_URL}/v1/indicators/iv/{symbol}"
-    data = await safe_request(session, url)
-    return data or {}
+    log.debug("fetch_polygon_iv placeholder hit — returning empty dict")
+    return {}
 
 
 async def fetch_polygon_flow(session: aiohttp.ClientSession, symbol: str, limit: int = 50) -> List[Dict[str, Any]]:
     """
     Placeholder for options trades flow.
-    TODO: Adjust endpoint — current Polygon docs show flow per contract,
-    not `/SPY/options`.
+    TODO: Implement using valid Polygon endpoint.
     """
-    url = f"{POLYGON_BASE_URL}/v3/trades/{symbol}/options"
-    data = await safe_request(session, url, {"limit": limit})
-    return data.get("results", []) if data else []
+    log.debug("fetch_polygon_flow placeholder hit — returning empty list")
+    return []
 
 
 # ==============================
@@ -154,7 +186,14 @@ def fetch_etf(symbol: str) -> pd.DataFrame:
 # MASTER LOOP
 # ==============================
 async def fetch_all(symbol: str) -> Dict[str, Any]:
-    """Fetch all data sources in parallel for symbol."""
+    """
+    Fetch all data sources in parallel for a symbol.
+
+    Returns:
+        dict: {
+            bars, quote, news, chain, iv, flow, vix
+        }
+    """
     async with aiohttp.ClientSession() as session:
         try:
             bars_task = fetch_alpaca_bars(session, symbol)
@@ -183,12 +222,19 @@ async def fetch_all(symbol: str) -> Dict[str, Any]:
 
 
 async def data_loop(symbol: str, callback):
-    """Continuous loop to fetch + deliver data to callback."""
-    while True:
-        try:
-            data = await fetch_all(symbol)
-            if data and isinstance(data.get("bars"), pd.DataFrame) and not data["bars"].empty:
-                callback(data)
-        except Exception as e:
-            log.error(f"Data loop error: {e}")
-        await asyncio.sleep(REFRESH_INTERVAL_SEC)
+    """
+    Continuous loop to fetch + deliver data to callback.
+
+    Args:
+        symbol (str): ticker symbol
+        callback (function): function to receive data dict
+    """
+    async with aiohttp.ClientSession() as session:
+        while True:
+            try:
+                data = await fetch_all(symbol)
+                if data and isinstance(data.get("bars"), pd.DataFrame) and not data["bars"].empty:
+                    callback(data)
+            except Exception as e:
+                log.error(f"Data loop error: {e}")
+            await asyncio.sleep(REFRESH_INTERVAL_SEC)

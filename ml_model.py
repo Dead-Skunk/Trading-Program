@@ -1,142 +1,134 @@
 """
-ml_model.py - Machine learning overlay for AutoTraderPro
+ml_model.py - Machine learning filter for AutoTraderPro
 """
 
 import os
 import json
-import pandas as pd
+import joblib
 import numpy as np
-from typing import Dict, Any
+import pandas as pd
+from typing import Dict, Any, Optional
 from sklearn.ensemble import RandomForestClassifier
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import classification_report
+
 from config import JOURNAL_DIR, get_logger
 
 log = get_logger(__name__)
 
-# Global state
-_model = None
-_warned_not_enough_data = False
-_features = ["rsi", "macd", "atr_pct", "iv_rank", "iv_percentile", "regime_trend", "flow_score"]
+MODEL_PATH = os.path.join(JOURNAL_DIR, "ml_model.pkl")
 
 
 # ==============================
-# Feature Extraction
+# Feature Engineering
 # ==============================
 def extract_features(df: pd.DataFrame, context: Dict[str, Any]) -> Dict[str, float]:
     """
-    Extract ML features from OHLCV + market context.
+    Extract ML features from market data.
 
     Args:
-        df (pd.DataFrame): OHLCV bars.
-        context (dict): Market context (iv, regime, flow, etc.).
+        df (pd.DataFrame): OHLCV data.
+        context (dict): Market context.
 
     Returns:
-        dict: Feature vector.
+        dict: Feature set.
     """
     try:
-        price = df["close"].iloc[-1]
-        atr_val = df["close"].rolling(14).std().iloc[-1]
-        atr_pct = atr_val / price if price else 0
-
-        rsi_val = _rsi(df["close"])
-        macd_val = _macd(df["close"])
-
-        return {
-            "rsi": rsi_val,
-            "macd": macd_val,
-            "atr_pct": atr_pct,
-            "iv_rank": context.get("iv", {}).get("iv_rank", 0),
-            "iv_percentile": context.get("iv", {}).get("iv_percentile", 0),
-            "regime_trend": 1 if context.get("regime") == "trend" else 0,
-            "flow_score": context.get("flow_score", 0),
+        features = {
+            "close": float(df["close"].iloc[-1]),
+            "ema_fast": float(df["close"].ewm(span=12, adjust=False).mean().iloc[-1]),
+            "ema_slow": float(df["close"].ewm(span=26, adjust=False).mean().iloc[-1]),
+            "atr": float((df["high"] - df["low"]).rolling(14).mean().iloc[-1]),
+            "volume": float(df["volume"].iloc[-1]),
+            "vix": float(context.get("vix", 0)),
         }
+        return {k: (0.0 if pd.isna(v) else v) for k, v in features.items()}
     except Exception as e:
         log.error(f"Feature extraction error: {e}")
-        return {f: 0 for f in _features}
+        return {
+            "close": 0.0,
+            "ema_fast": 0.0,
+            "ema_slow": 0.0,
+            "atr": 0.0,
+            "volume": 0.0,
+            "vix": 0.0,
+        }
 
 
 # ==============================
-# Model Training
+# Training
 # ==============================
-def train_model():
-    """Train ML model from journal history."""
-    global _model, _warned_not_enough_data
+def train_ml_model() -> None:
+    """Train or retrain ML model from journaled trades."""
     X, y = [], []
-
-    for fname in os.listdir(JOURNAL_DIR):
-        if not fname.endswith(".txt"):
-            continue
-        with open(os.path.join(JOURNAL_DIR, fname), "r", encoding="utf-8") as f:
-            for line in f:
-                try:
-                    record = json.loads(line.strip())
-                    if "outcome" in record and "features" in record:
-                        X.append([record["features"].get(feat, 0) for feat in _features])
-                        y.append(1 if record.get("pnl", 0) > 0 else 0)
-                except Exception:
-                    continue
-
-    if len(X) < 50:
-        if not _warned_not_enough_data:
-            log.warning("⚠️ Not enough trades to train ML model (need ≥50)")
-            _warned_not_enough_data = True
+    try:
+        for fname in os.listdir(JOURNAL_DIR):
+            if not fname.endswith(".txt"):
+                continue
+            with open(os.path.join(JOURNAL_DIR, fname), "r", encoding="utf-8") as f:
+                for line in f:
+                    try:
+                        rec = json.loads(line.strip())
+                        feats = rec.get("features", {})
+                        if feats and "outcome" in rec:
+                            X.append(list(feats.values()))
+                            y.append(1 if rec["pnl"] > 0 else 0)
+                    except Exception:
+                        continue
+    except Exception as e:
+        log.error(f"ML training data scan failed: {e}")
         return
 
-    X = np.array(X)
-    y = np.array(y)
-    _model = RandomForestClassifier(n_estimators=100, max_depth=5, random_state=42)
-    _model.fit(X, y)
-    log.info(f"🤖 ML model trained on {len(X)} samples")
+    if len(X) < 10:
+        log.warning(f"⚠️ Not enough samples for training ({len(X)})")
+        return
+
+    X, y = np.array(X), np.array(y)
+    try:
+        X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+        model = RandomForestClassifier(n_estimators=100, random_state=42)
+        model.fit(X_train, y_train)
+
+        preds = model.predict(X_test)
+        log.info("📊 ML Training Report:\n" + classification_report(y_test, preds))
+
+        joblib.dump(model, MODEL_PATH)
+        log.info(f"✅ ML model trained + saved: {MODEL_PATH}")
+
+        # Log feature importances
+        importances = dict(zip([f"f{i}" for i in range(X.shape[1])], model.feature_importances_))
+        log.info(f"🔎 Feature importances: {importances}")
+    except Exception as e:
+        log.error(f"ML training failed: {e}")
 
 
 # ==============================
 # Prediction
 # ==============================
-def ml_predict(df: pd.DataFrame, context: Dict[str, Any]) -> float:
+def ml_predict(data: Dict[str, Any]) -> Optional[float]:
     """
-    Predict probability of success for a trade setup.
+    Predict win probability for a trade setup.
 
     Args:
-        df (pd.DataFrame): OHLCV bars.
-        context (dict): Market context.
+        data (dict): {bars, context}
 
     Returns:
-        float: Probability (0–1).
+        float or None: Probability of success.
     """
-    global _model
+    if not os.path.exists(MODEL_PATH):
+        log.warning("⚠️ No ML model found, skipping prediction")
+        return None
 
-    if context.get("disable_ml", False):
-        return 1.0  # bypass ML filter
-
-    if _model is None:
-        train_model()
-        if _model is None:
-            return 0.5  # neutral until trained
-
-    feats = extract_features(df, context)
-    X = np.array([[feats[f] for f in _features]])
     try:
-        prob = _model.predict_proba(X)[0][1]
+        model = joblib.load(MODEL_PATH)
+        df, context = data.get("bars"), data.get("context", {})
+        if df is None or df.empty:
+            return None
+        feats = extract_features(df, context)
+        X = np.array(list(feats.values())).reshape(1, -1)
+        prob = model.predict_proba(X)[0, 1]
         return float(prob)
     except Exception as e:
-        log.error(f"ML predict error: {e}")
-        return 0.5
-
-
-# ==============================
-# Helpers
-# ==============================
-def _rsi(series: pd.Series, period: int = 14) -> float:
-    delta = series.diff()
-    gain = (delta.where(delta > 0, 0)).rolling(window=period).mean()
-    loss = (-delta.where(delta < 0, 0)).rolling(window=period).mean()
-    try:
-        rs = gain / loss
-        return float(100 - (100 / (1 + rs.iloc[-1]))) if loss.iloc[-1] != 0 else 100
-    except Exception:
-        return 50.0
-
-
-def _macd(series: pd.Series) -> float:
-    ema12 = series.ewm(span=12).mean()
-    ema26 = series.ewm(span=26).mean()
-    return float((ema12 - ema26).iloc[-1])
+        log.error(f"ML prediction error: {e}")
+        return None

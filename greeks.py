@@ -19,7 +19,7 @@ def black_scholes_greeks(
     S: float, K: float, T: float, r: float, sigma: float, option_type: str
 ) -> Dict[str, float]:
     """
-    Compute Black-Scholes Greeks.
+    Compute Black-Scholes option Greeks.
 
     Args:
         S (float): Underlying price.
@@ -42,13 +42,20 @@ def black_scholes_greeks(
         if option_type.lower() == "call":
             delta = norm.cdf(d1)
             rho = K * T * math.exp(-r * T) * norm.cdf(d2)
-        else:
+            theta = (
+                -(S * norm.pdf(d1) * sigma) / (2 * math.sqrt(T))
+                - r * K * math.exp(-r * T) * norm.cdf(d2)
+            )
+        else:  # put
             delta = -norm.cdf(-d1)
             rho = -K * T * math.exp(-r * T) * norm.cdf(-d2)
+            theta = (
+                -(S * norm.pdf(d1) * sigma) / (2 * math.sqrt(T))
+                + r * K * math.exp(-r * T) * norm.cdf(-d2)
+            )
 
         gamma = norm.pdf(d1) / (S * sigma * math.sqrt(T))
         vega = S * norm.pdf(d1) * math.sqrt(T) / 100  # per 1 vol point
-        theta = -(S * norm.pdf(d1) * sigma) / (2 * math.sqrt(T))
 
         return {"delta": delta, "gamma": gamma, "vega": vega, "theta": theta, "rho": rho}
     except Exception as e:
@@ -94,11 +101,26 @@ def gamma_exposure(chain: pd.DataFrame, underlying_price: float) -> float:
     Returns:
         float: Aggregate gamma exposure.
     """
+    if chain is None or chain.empty:
+        return 0.0
+
+    required_cols = {"strike", "gamma", "open_interest", "option_type"}
+    if not required_cols.issubset(chain.columns):
+        log.warning("Gamma exposure: missing required columns")
+        return 0.0
+
     try:
         gex = 0.0
         for _, row in chain.iterrows():
-            direction = 1 if row["option_type"].lower() == "call" else -1
-            gex += row.get("gamma", 0) * row.get("open_interest", 0) * 100 * underlying_price * direction
+            row_dict = row.to_dict()
+            direction = 1 if str(row_dict.get("option_type", "")).lower() == "call" else -1
+            gex += (
+                float(row_dict.get("gamma", 0))
+                * float(row_dict.get("open_interest", 0))
+                * 100
+                * float(underlying_price)
+                * direction
+            )
         return float(gex)
     except Exception as e:
         log.error(f"GEX calc error: {e}")
@@ -120,6 +142,9 @@ def iv_skew(chain: pd.DataFrame, atm_strike: float, moneyness: float = 0.05) -> 
     Returns:
         dict: {call_skew, put_skew, atm_iv}
     """
+    if chain is None or chain.empty:
+        return {"call_skew": 0.0, "put_skew": 0.0, "atm_iv": 0.0}
+
     try:
         otm_calls = chain[(chain["strike"] > atm_strike * (1 + moneyness)) & (chain["option_type"] == "call")]
         itm_calls = chain[(chain["strike"] < atm_strike * (1 - moneyness)) & (chain["option_type"] == "call")]
@@ -160,9 +185,17 @@ def term_structure(chain: pd.DataFrame) -> Dict[str, float]:
 
     Args:
         chain (pd.DataFrame): Options chain.
+
     Returns:
         dict: {short_iv, mid_iv, long_iv}
     """
+    if chain is None or chain.empty:
+        return {"short_iv": 0.0, "mid_iv": 0.0, "long_iv": 0.0}
+
+    if not {"expiration_date", "iv"}.issubset(chain.columns):
+        log.warning("Term structure: missing required columns")
+        return {"short_iv": 0.0, "mid_iv": 0.0, "long_iv": 0.0}
+
     try:
         chain = chain.copy()
         chain["days_to_exp"] = (pd.to_datetime(chain["expiration_date"]) - pd.Timestamp.today()).dt.days

@@ -4,6 +4,7 @@ system_check.py - Pre-flight system check for AutoTraderPro
 
 import importlib
 import requests
+from typing import Dict
 from config import (
     ALPACA_API_KEY,
     ALPACA_SECRET_KEY,
@@ -30,7 +31,7 @@ def check_dependencies() -> bool:
             importlib.import_module(dep)
             log.info(f"✅ Dependency OK: {dep}")
         except ImportError:
-            log.error(f"❌ Missing dependency: {dep}")
+            log.error(f"❌ Missing dependency: {dep} | try: pip install {dep}")
             ok = False
     return ok
 
@@ -47,7 +48,7 @@ def check_alpaca() -> bool:
             log.info("✅ Alpaca connectivity OK")
             return True
         else:
-            log.error(f"❌ Alpaca check failed ({resp.status_code})")
+            log.error(f"❌ Alpaca check failed ({resp.status_code}): {resp.text}")
             return False
     except Exception as e:
         log.error(f"❌ Alpaca error: {e}")
@@ -60,13 +61,16 @@ def check_alpaca() -> bool:
 def check_polygon() -> bool:
     """Test Polygon options API connectivity."""
     try:
-        url = f"{POLYGON_BASE_URL}/v3/reference/options/contracts?underlying_ticker=SPY&limit=1&apiKey={POLYGON_API_KEY}"
+        url = (
+            f"{POLYGON_BASE_URL}/v3/reference/options/contracts"
+            f"?underlying_ticker=SPY&limit=1&apiKey={POLYGON_API_KEY}"
+        )
         resp = requests.get(url, timeout=10)
         if resp.status_code == 200:
             log.info("✅ Polygon connectivity OK")
             return True
         else:
-            log.error(f"❌ Polygon check failed ({resp.status_code})")
+            log.error(f"❌ Polygon check failed ({resp.status_code}): {resp.text}")
             return False
     except Exception as e:
         log.error(f"❌ Polygon error: {e}")
@@ -79,7 +83,7 @@ def check_polygon() -> bool:
 def check_discord() -> bool:
     """Test Discord webhook connectivity."""
     if not DISCORD_ENABLED:
-        log.info("⚠️ Discord not configured")
+        log.info("⚠️ Discord not configured or disabled")
         return True
     try:
         resp = requests.post(DISCORD_WEBHOOK, json={"content": "🔔 AutoTraderPro system check"}, timeout=10)
@@ -87,7 +91,7 @@ def check_discord() -> bool:
             log.info("✅ Discord webhook OK")
             return True
         else:
-            log.error(f"❌ Discord check failed ({resp.status_code})")
+            log.error(f"❌ Discord check failed ({resp.status_code}): {resp.text}")
             return False
     except Exception as e:
         log.error(f"❌ Discord error: {e}")
@@ -97,11 +101,30 @@ def check_discord() -> bool:
 # ==============================
 # Master Pre-flight
 # ==============================
-def run_system_check() -> bool:
-    """Run all system checks before trading starts."""
+def run_system_check() -> Dict[str, bool]:
+    """
+    Run all system checks before trading starts.
+
+    Returns:
+        dict: {dependencies, alpaca, polygon, discord, overall}
+    """
     log.info("🚀 Running system check...")
-    deps = check_dependencies()
+
+    deps_ok = check_dependencies()
     alpaca_ok = check_alpaca()
     polygon_ok = check_polygon()
     discord_ok = check_discord()
-    return all([deps, alpaca_ok, polygon_ok, discord_ok])
+
+    overall = all([deps_ok, alpaca_ok, polygon_ok, discord_ok])
+    if overall:
+        log.info("✅ All systems operational")
+    else:
+        log.error("❌ System check failed")
+
+    return {
+        "dependencies": deps_ok,
+        "alpaca": alpaca_ok,
+        "polygon": polygon_ok,
+        "discord": discord_ok,
+        "overall": overall,
+    }

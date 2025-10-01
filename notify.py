@@ -16,11 +16,21 @@ log = get_logger(__name__)
 def _send_discord(payload: Dict[str, Any]) -> bool:
     """
     Send a message to Discord webhook with retry + backoff.
-    Returns True if successful.
+
+    Args:
+        payload (dict): Discord message payload.
+
+    Returns:
+        bool: True if successful, False otherwise.
     """
     if not DISCORD_ENABLED or DEV_MODE:
         log.info(f"🔔 [DEV] Discord alert: {payload}")
         return True
+
+    # Ensure payload content is not None
+    if not payload.get("content"):
+        log.warning("⚠️ Discord payload missing content")
+        return False
 
     backoff = 1
     for attempt in range(5):
@@ -28,9 +38,9 @@ def _send_discord(payload: Dict[str, Any]) -> bool:
             resp = requests.post(DISCORD_WEBHOOK, json=payload, timeout=10)
             if resp.status_code == 204:
                 return True
-            log.warning(f"Discord send failed (status {resp.status_code}), retry {attempt+1}")
+            log.warning(f"Discord send failed (status {resp.status_code}), attempt {attempt+1}/5")
         except Exception as e:
-            log.error(f"Discord error: {e}")
+            log.error(f"Discord send error: {e}")
         time.sleep(backoff)
         backoff *= 2
     return False
@@ -39,7 +49,7 @@ def _send_discord(payload: Dict[str, Any]) -> bool:
 # ==============================
 # Alert Wrappers
 # ==============================
-def alert_entry(trade: Dict[str, Any]):
+def alert_entry(trade: Dict[str, Any]) -> None:
     """Send entry alert for a new trade."""
     payload = {
         "content": (
@@ -48,13 +58,13 @@ def alert_entry(trade: Dict[str, Any]):
             f"Stop: {trade.get('stop')} | "
             f"Target: {trade.get('target')} | "
             f"Size: {trade.get('size')} | "
-            f"Confidence: {trade.get('confidence'):.2f}"
+            f"Confidence: {trade.get('confidence', 0):.2f}"
         )
     }
     _send_discord(payload)
 
 
-def alert_exit(trade: Dict[str, Any], outcome: str, pnl: float):
+def alert_exit(trade: Dict[str, Any], outcome: str, pnl: float) -> None:
     """Send exit alert when a trade closes."""
     payload = {
         "content": (
@@ -66,13 +76,13 @@ def alert_exit(trade: Dict[str, Any], outcome: str, pnl: float):
     _send_discord(payload)
 
 
-def alert_lockout(reason: str):
+def alert_lockout(reason: str) -> None:
     """Send lockout alert (e.g., VAR exceeded, guardrail breach)."""
     payload = {"content": f"🚫 **LOCKOUT**: {reason}"}
     _send_discord(payload)
 
 
-def alert_heartbeat(equity: float, trades_today: int):
+def alert_heartbeat(equity: float, trades_today: int) -> None:
     """Send heartbeat with equity + trade count."""
     payload = {
         "content": f"❤️ **Heartbeat** | Equity: {equity:.2f} | Trades today: {trades_today}"
@@ -80,7 +90,7 @@ def alert_heartbeat(equity: float, trades_today: int):
     _send_discord(payload)
 
 
-def alert_error(module: str, error: str):
+def alert_error(module: str, error: str) -> None:
     """Send error alert for a module failure."""
     payload = {"content": f"⚠️ **Error in {module}**: {error}"}
     _send_discord(payload)

@@ -1,0 +1,1167 @@
+2025-09-30 14:45:16,871 [INFO] system_check: 🚀 Running system check...
+2025-09-30 14:45:16,871 [INFO] system_check: ✅ Dependency OK: pandas
+2025-09-30 14:45:16,871 [INFO] system_check: ✅ Dependency OK: numpy
+2025-09-30 14:45:16,871 [INFO] system_check: ✅ Dependency OK: aiohttp
+2025-09-30 14:45:16,871 [INFO] system_check: ✅ Dependency OK: yfinance
+2025-09-30 14:45:16,871 [INFO] system_check: ✅ Dependency OK: customtkinter
+2025-09-30 14:45:17,172 [ERROR] system_check: ❌ Alpaca check failed (500)
+2025-09-30 14:45:17,769 [INFO] system_check: ✅ Polygon connectivity OK
+2025-09-30 14:45:18,078 [INFO] system_check: ✅ Discord webhook OK
+2025-09-30 14:45:18,078 [ERROR] __main__: ❌ System check failed. Exiting.
+2025-09-30 14:45:26,653 [INFO] system_check: 🚀 Running system check...
+2025-09-30 14:45:26,653 [INFO] system_check: ✅ Dependency OK: pandas
+2025-09-30 14:45:26,653 [INFO] system_check: ✅ Dependency OK: numpy
+2025-09-30 14:45:26,653 [INFO] system_check: ✅ Dependency OK: aiohttp
+2025-09-30 14:45:26,653 [INFO] system_check: ✅ Dependency OK: yfinance
+2025-09-30 14:45:26,653 [INFO] system_check: ✅ Dependency OK: customtkinter
+2025-09-30 14:45:26,919 [ERROR] system_check: ❌ Alpaca check failed (500)
+2025-09-30 14:45:27,506 [INFO] system_check: ✅ Polygon connectivity OK
+2025-09-30 14:45:27,936 [INFO] system_check: ✅ Discord webhook OK
+2025-09-30 14:45:27,936 [ERROR] __main__: ❌ System check failed. Exiting.
+2025-09-30 14:45:57,632 [INFO] system_check: 🚀 Running system check...
+2025-09-30 14:45:57,632 [INFO] system_check: ✅ Dependency OK: pandas
+2025-09-30 14:45:57,632 [INFO] system_check: ✅ Dependency OK: numpy
+2025-09-30 14:45:57,632 [INFO] system_check: ✅ Dependency OK: aiohttp
+2025-09-30 14:45:57,632 [INFO] system_check: ✅ Dependency OK: yfinance
+2025-09-30 14:45:57,632 [INFO] system_check: ✅ Dependency OK: customtkinter
+2025-09-30 14:45:57,923 [ERROR] system_check: ❌ Alpaca check failed (401)
+2025-09-30 14:45:58,540 [INFO] system_check: ✅ Polygon connectivity OK
+2025-09-30 14:45:58,828 [INFO] system_check: ✅ Discord webhook OK
+2025-09-30 14:45:58,828 [ERROR] __main__: ❌ System check failed. Exiting.
+2025-09-30 14:46:20,987 [INFO] system_check: 🚀 Running system check...
+2025-09-30 14:46:20,987 [INFO] system_check: ✅ Dependency OK: pandas
+2025-09-30 14:46:20,988 [INFO] system_check: ✅ Dependency OK: numpy
+2025-09-30 14:46:20,988 [INFO] system_check: ✅ Dependency OK: aiohttp
+2025-09-30 14:46:20,988 [INFO] system_check: ✅ Dependency OK: yfinance
+2025-09-30 14:46:20,988 [INFO] system_check: ✅ Dependency OK: customtkinter
+2025-09-30 14:46:21,261 [ERROR] system_check: ❌ Alpaca check failed (401)
+2025-09-30 14:46:21,824 [INFO] system_check: ✅ Polygon connectivity OK
+2025-09-30 14:46:22,230 [INFO] system_check: ✅ Discord webhook OK
+2025-09-30 14:46:22,246 [ERROR] __main__: ❌ System check failed. Exiting.
+2025-09-30 14:48:52,591 [INFO] system_check: 🚀 Running system check...
+2025-09-30 14:48:52,591 [INFO] system_check: ✅ Dependency OK: pandas
+2025-09-30 14:48:52,591 [INFO] system_check: ✅ Dependency OK: numpy
+2025-09-30 14:48:52,591 [INFO] system_check: ✅ Dependency OK: aiohttp
+2025-09-30 14:48:52,591 [INFO] system_check: ✅ Dependency OK: yfinance
+2025-09-30 14:48:52,591 [INFO] system_check: ✅ Dependency OK: customtkinter
+2025-09-30 14:48:52,925 [ERROR] system_check: ❌ Alpaca check failed (401)
+2025-09-30 14:48:53,694 [INFO] system_check: ✅ Polygon connectivity OK
+2025-09-30 14:48:53,982 [INFO] system_check: ✅ Discord webhook OK
+2025-09-30 14:48:53,982 [ERROR] __main__: ❌ System check failed. Exiting.
+2025-09-30 15:09:50,493 [INFO] system_check: 🚀 Running system check...
+2025-09-30 15:09:50,493 [INFO] system_check: ✅ Dependency OK: pandas
+2025-09-30 15:09:50,493 [INFO] system_check: ✅ Dependency OK: numpy
+2025-09-30 15:09:50,493 [INFO] system_check: ✅ Dependency OK: aiohttp
+2025-09-30 15:09:50,493 [INFO] system_check: ✅ Dependency OK: yfinance
+2025-09-30 15:09:50,493 [INFO] system_check: ✅ Dependency OK: customtkinter
+2025-09-30 15:09:50,812 [ERROR] system_check: ❌ Alpaca check failed (401)
+2025-09-30 15:09:51,336 [INFO] system_check: ✅ Polygon connectivity OK
+2025-09-30 15:09:51,813 [INFO] system_check: ✅ Discord webhook OK
+2025-09-30 15:09:51,813 [ERROR] __main__: ❌ System check failed. Exiting.
+2025-09-30 15:12:38,285 [INFO] system_check: 🚀 Running system check...
+2025-09-30 15:12:38,285 [INFO] system_check: ✅ Dependency OK: pandas
+2025-09-30 15:12:38,285 [INFO] system_check: ✅ Dependency OK: numpy
+2025-09-30 15:12:38,286 [INFO] system_check: ✅ Dependency OK: aiohttp
+2025-09-30 15:12:38,286 [INFO] system_check: ✅ Dependency OK: yfinance
+2025-09-30 15:12:38,286 [INFO] system_check: ✅ Dependency OK: customtkinter
+2025-09-30 15:12:38,626 [INFO] system_check: ✅ Alpaca connectivity OK
+2025-09-30 15:12:39,171 [INFO] system_check: ✅ Polygon connectivity OK
+2025-09-30 15:12:39,543 [INFO] system_check: ✅ Discord webhook OK
+2025-09-30 15:12:39,931 [WARNING] data_fetch: Retry 1 for https://api.polygon.io/v3/trades/SPY/options (status 404)
+2025-09-30 15:12:39,931 [WARNING] data_fetch: Retry 1 for https://api.polygon.io/v1/indicators/iv/SPY (status 404)
+2025-09-30 15:12:41,026 [WARNING] data_fetch: Retry 2 for https://api.polygon.io/v3/trades/SPY/options (status 404)
+2025-09-30 15:12:41,026 [WARNING] data_fetch: Retry 2 for https://api.polygon.io/v1/indicators/iv/SPY (status 404)
+2025-09-30 15:12:43,104 [WARNING] data_fetch: Retry 3 for https://api.polygon.io/v3/trades/SPY/options (status 404)
+2025-09-30 15:12:43,104 [WARNING] data_fetch: Retry 3 for https://api.polygon.io/v1/indicators/iv/SPY (status 404)
+2025-09-30 15:12:49,010 [INFO] system_check: 🚀 Running system check...
+2025-09-30 15:12:49,010 [INFO] system_check: ✅ Dependency OK: pandas
+2025-09-30 15:12:49,010 [INFO] system_check: ✅ Dependency OK: numpy
+2025-09-30 15:12:49,010 [INFO] system_check: ✅ Dependency OK: aiohttp
+2025-09-30 15:12:49,010 [INFO] system_check: ✅ Dependency OK: yfinance
+2025-09-30 15:12:49,010 [INFO] system_check: ✅ Dependency OK: customtkinter
+2025-09-30 15:12:49,276 [INFO] system_check: ✅ Alpaca connectivity OK
+2025-09-30 15:12:49,791 [INFO] system_check: ✅ Polygon connectivity OK
+2025-09-30 15:12:50,110 [INFO] system_check: ✅ Discord webhook OK
+2025-09-30 15:12:50,432 [WARNING] data_fetch: Retry 1 for https://api.polygon.io/v1/indicators/iv/SPY (status 404)
+2025-09-30 15:12:50,447 [WARNING] data_fetch: Retry 1 for https://api.polygon.io/v3/trades/SPY/options (status 404)
+2025-09-30 15:12:51,513 [WARNING] data_fetch: Retry 2 for https://api.polygon.io/v1/indicators/iv/SPY (status 404)
+2025-09-30 15:12:51,541 [WARNING] data_fetch: Retry 2 for https://api.polygon.io/v3/trades/SPY/options (status 404)
+2025-09-30 15:12:53,603 [WARNING] data_fetch: Retry 3 for https://api.polygon.io/v3/trades/SPY/options (status 404)
+2025-09-30 15:12:53,603 [WARNING] data_fetch: Retry 3 for https://api.polygon.io/v1/indicators/iv/SPY (status 404)
+2025-09-30 15:12:58,901 [ERROR] regime: Regime detection error: 'close'
+2025-09-30 15:12:58,901 [ERROR] __main__: Data handling error: 'close'
+2025-09-30 15:13:01,588 [WARNING] data_fetch: Retry 1 for https://api.polygon.io/v1/indicators/iv/SPY (status 404)
+2025-09-30 15:13:01,588 [WARNING] data_fetch: Retry 1 for https://api.polygon.io/v3/trades/SPY/options (status 404)
+2025-09-30 15:13:02,681 [WARNING] data_fetch: Retry 2 for https://api.polygon.io/v1/indicators/iv/SPY (status 404)
+2025-09-30 15:13:02,682 [WARNING] data_fetch: Retry 2 for https://api.polygon.io/v3/trades/SPY/options (status 404)
+2025-09-30 15:13:04,760 [WARNING] data_fetch: Retry 3 for https://api.polygon.io/v1/indicators/iv/SPY (status 404)
+2025-09-30 15:13:04,760 [WARNING] data_fetch: Retry 3 for https://api.polygon.io/v3/trades/SPY/options (status 404)
+2025-09-30 15:13:09,190 [ERROR] regime: Regime detection error: 'close'
+2025-09-30 15:13:09,190 [ERROR] __main__: Data handling error: 'close'
+2025-09-30 15:13:11,739 [WARNING] data_fetch: Retry 1 for https://api.polygon.io/v3/trades/SPY/options (status 404)
+2025-09-30 15:13:11,745 [WARNING] data_fetch: Retry 1 for https://api.polygon.io/v1/indicators/iv/SPY (status 404)
+2025-09-30 15:13:12,825 [WARNING] data_fetch: Retry 2 for https://api.polygon.io/v3/trades/SPY/options (status 404)
+2025-09-30 15:13:12,826 [WARNING] data_fetch: Retry 2 for https://api.polygon.io/v1/indicators/iv/SPY (status 404)
+2025-09-30 15:13:14,897 [WARNING] data_fetch: Retry 3 for https://api.polygon.io/v3/trades/SPY/options (status 404)
+2025-09-30 15:13:14,897 [WARNING] data_fetch: Retry 3 for https://api.polygon.io/v1/indicators/iv/SPY (status 404)
+2025-09-30 15:13:19,386 [ERROR] regime: Regime detection error: 'close'
+2025-09-30 15:13:19,386 [ERROR] __main__: Data handling error: 'close'
+2025-09-30 15:13:21,963 [WARNING] data_fetch: Retry 1 for https://api.polygon.io/v1/indicators/iv/SPY (status 404)
+2025-09-30 15:13:21,979 [WARNING] data_fetch: Retry 1 for https://api.polygon.io/v3/trades/SPY/options (status 404)
+2025-09-30 15:13:23,057 [WARNING] data_fetch: Retry 2 for https://api.polygon.io/v3/trades/SPY/options (status 404)
+2025-09-30 15:13:23,057 [WARNING] data_fetch: Retry 2 for https://api.polygon.io/v1/indicators/iv/SPY (status 404)
+2025-09-30 15:13:25,131 [WARNING] data_fetch: Retry 3 for https://api.polygon.io/v3/trades/SPY/options (status 404)
+2025-09-30 15:13:25,131 [WARNING] data_fetch: Retry 3 for https://api.polygon.io/v1/indicators/iv/SPY (status 404)
+2025-09-30 15:13:29,604 [ERROR] regime: Regime detection error: 'close'
+2025-09-30 15:13:29,604 [ERROR] __main__: Data handling error: 'close'
+2025-09-30 15:13:32,215 [WARNING] data_fetch: Retry 1 for https://api.polygon.io/v1/indicators/iv/SPY (status 404)
+2025-09-30 15:13:32,215 [WARNING] data_fetch: Retry 1 for https://api.polygon.io/v3/trades/SPY/options (status 404)
+2025-09-30 15:13:33,307 [WARNING] data_fetch: Retry 2 for https://api.polygon.io/v1/indicators/iv/SPY (status 404)
+2025-09-30 15:13:33,307 [WARNING] data_fetch: Retry 2 for https://api.polygon.io/v3/trades/SPY/options (status 404)
+2025-09-30 15:13:35,390 [WARNING] data_fetch: Retry 3 for https://api.polygon.io/v1/indicators/iv/SPY (status 404)
+2025-09-30 15:13:35,399 [WARNING] data_fetch: Retry 3 for https://api.polygon.io/v3/trades/SPY/options (status 404)
+2025-09-30 15:13:39,850 [ERROR] regime: Regime detection error: 'close'
+2025-09-30 15:13:39,850 [ERROR] __main__: Data handling error: 'close'
+2025-09-30 15:13:42,565 [WARNING] data_fetch: Retry 1 for https://api.polygon.io/v3/trades/SPY/options (status 404)
+2025-09-30 15:13:42,566 [WARNING] data_fetch: Retry 1 for https://api.polygon.io/v1/indicators/iv/SPY (status 404)
+2025-09-30 15:13:43,657 [WARNING] data_fetch: Retry 2 for https://api.polygon.io/v1/indicators/iv/SPY (status 404)
+2025-09-30 15:13:43,658 [WARNING] data_fetch: Retry 2 for https://api.polygon.io/v3/trades/SPY/options (status 404)
+2025-09-30 15:13:45,744 [WARNING] data_fetch: Retry 3 for https://api.polygon.io/v3/trades/SPY/options (status 404)
+2025-09-30 15:13:45,745 [WARNING] data_fetch: Retry 3 for https://api.polygon.io/v1/indicators/iv/SPY (status 404)
+2025-09-30 15:13:50,213 [ERROR] regime: Regime detection error: 'close'
+2025-09-30 15:13:50,213 [ERROR] __main__: Data handling error: 'close'
+2025-09-30 15:13:53,021 [WARNING] data_fetch: Retry 1 for https://api.polygon.io/v3/trades/SPY/options (status 404)
+2025-09-30 15:13:53,021 [WARNING] data_fetch: Retry 1 for https://api.polygon.io/v1/indicators/iv/SPY (status 404)
+2025-09-30 15:13:54,104 [WARNING] data_fetch: Retry 2 for https://api.polygon.io/v1/indicators/iv/SPY (status 404)
+2025-09-30 15:13:54,104 [WARNING] data_fetch: Retry 2 for https://api.polygon.io/v3/trades/SPY/options (status 404)
+2025-09-30 15:13:55,122 [INFO] __main__: 📊 Tracking symbol changed to SPY
+2025-09-30 15:13:56,189 [WARNING] data_fetch: Retry 3 for https://api.polygon.io/v1/indicators/iv/SPY (status 404)
+2025-09-30 15:13:56,189 [WARNING] data_fetch: Retry 3 for https://api.polygon.io/v3/trades/SPY/options (status 404)
+2025-09-30 15:14:00,628 [ERROR] regime: Regime detection error: 'close'
+2025-09-30 15:14:00,628 [ERROR] __main__: Data handling error: 'close'
+2025-09-30 15:14:03,241 [WARNING] data_fetch: Retry 1 for https://api.polygon.io/v1/indicators/iv/SPY (status 404)
+2025-09-30 15:14:03,241 [WARNING] data_fetch: Retry 1 for https://api.polygon.io/v3/trades/SPY/options (status 404)
+2025-09-30 15:14:04,311 [WARNING] data_fetch: Retry 2 for https://api.polygon.io/v1/indicators/iv/SPY (status 404)
+2025-09-30 15:14:04,311 [WARNING] data_fetch: Retry 2 for https://api.polygon.io/v3/trades/SPY/options (status 404)
+2025-09-30 15:14:06,393 [WARNING] data_fetch: Retry 3 for https://api.polygon.io/v1/indicators/iv/SPY (status 404)
+2025-09-30 15:14:06,393 [WARNING] data_fetch: Retry 3 for https://api.polygon.io/v3/trades/SPY/options (status 404)
+2025-09-30 15:14:06,697 [INFO] __main__: 📊 Tracking symbol changed to SPY
+2025-09-30 15:14:10,804 [ERROR] regime: Regime detection error: 'close'
+2025-09-30 15:14:10,805 [ERROR] __main__: Data handling error: 'close'
+2025-09-30 15:14:13,494 [WARNING] data_fetch: Retry 1 for https://api.polygon.io/v1/indicators/iv/SPY (status 404)
+2025-09-30 15:14:13,504 [WARNING] data_fetch: Retry 1 for https://api.polygon.io/v3/trades/SPY/options (status 404)
+2025-09-30 15:14:14,576 [WARNING] data_fetch: Retry 2 for https://api.polygon.io/v1/indicators/iv/SPY (status 404)
+2025-09-30 15:14:14,581 [WARNING] data_fetch: Retry 2 for https://api.polygon.io/v3/trades/SPY/options (status 404)
+2025-09-30 15:14:16,657 [WARNING] data_fetch: Retry 3 for https://api.polygon.io/v1/indicators/iv/SPY (status 404)
+2025-09-30 15:14:16,662 [WARNING] data_fetch: Retry 3 for https://api.polygon.io/v3/trades/SPY/options (status 404)
+2025-09-30 15:14:22,556 [ERROR] regime: Regime detection error: 'close'
+2025-09-30 15:14:22,556 [ERROR] __main__: Data handling error: 'close'
+2025-09-30 15:14:25,363 [WARNING] data_fetch: Retry 1 for https://api.polygon.io/v1/indicators/iv/SPY (status 404)
+2025-09-30 15:14:25,363 [WARNING] data_fetch: Retry 1 for https://api.polygon.io/v3/trades/SPY/options (status 404)
+2025-09-30 15:14:25,807 [INFO] __main__: 📊 Tracking symbol changed to AAPL
+2025-09-30 15:14:26,443 [WARNING] data_fetch: Retry 2 for https://api.polygon.io/v1/indicators/iv/SPY (status 404)
+2025-09-30 15:14:26,459 [WARNING] data_fetch: Retry 2 for https://api.polygon.io/v3/trades/SPY/options (status 404)
+2025-09-30 15:14:28,529 [WARNING] data_fetch: Retry 3 for https://api.polygon.io/v1/indicators/iv/SPY (status 404)
+2025-09-30 15:14:28,529 [WARNING] data_fetch: Retry 3 for https://api.polygon.io/v3/trades/SPY/options (status 404)
+2025-09-30 15:14:32,979 [ERROR] regime: Regime detection error: 'close'
+2025-09-30 15:14:32,979 [ERROR] __main__: Data handling error: 'close'
+2025-09-30 15:14:35,543 [WARNING] data_fetch: Retry 1 for https://api.polygon.io/v1/indicators/iv/SPY (status 404)
+2025-09-30 15:14:35,543 [WARNING] data_fetch: Retry 1 for https://api.polygon.io/v3/trades/SPY/options (status 404)
+2025-09-30 15:14:36,636 [WARNING] data_fetch: Retry 2 for https://api.polygon.io/v1/indicators/iv/SPY (status 404)
+2025-09-30 15:14:36,636 [WARNING] data_fetch: Retry 2 for https://api.polygon.io/v3/trades/SPY/options (status 404)
+2025-09-30 15:14:38,727 [WARNING] data_fetch: Retry 3 for https://api.polygon.io/v1/indicators/iv/SPY (status 404)
+2025-09-30 15:14:38,727 [WARNING] data_fetch: Retry 3 for https://api.polygon.io/v3/trades/SPY/options (status 404)
+2025-09-30 15:14:43,182 [ERROR] regime: Regime detection error: 'close'
+2025-09-30 15:14:43,182 [ERROR] __main__: Data handling error: 'close'
+2025-09-30 15:14:45,745 [WARNING] data_fetch: Retry 1 for https://api.polygon.io/v3/trades/SPY/options (status 404)
+2025-09-30 15:14:45,757 [WARNING] data_fetch: Retry 1 for https://api.polygon.io/v1/indicators/iv/SPY (status 404)
+2025-09-30 15:14:46,833 [WARNING] data_fetch: Retry 2 for https://api.polygon.io/v1/indicators/iv/SPY (status 404)
+2025-09-30 15:14:46,833 [WARNING] data_fetch: Retry 2 for https://api.polygon.io/v3/trades/SPY/options (status 404)
+2025-09-30 15:14:48,913 [WARNING] data_fetch: Retry 3 for https://api.polygon.io/v1/indicators/iv/SPY (status 404)
+2025-09-30 15:14:48,913 [WARNING] data_fetch: Retry 3 for https://api.polygon.io/v3/trades/SPY/options (status 404)
+2025-09-30 15:14:53,331 [ERROR] regime: Regime detection error: 'close'
+2025-09-30 15:14:53,331 [ERROR] __main__: Data handling error: 'close'
+2025-09-30 15:14:55,952 [WARNING] data_fetch: Retry 1 for https://api.polygon.io/v3/trades/SPY/options (status 404)
+2025-09-30 15:14:55,952 [WARNING] data_fetch: Retry 1 for https://api.polygon.io/v1/indicators/iv/SPY (status 404)
+2025-09-30 15:14:57,043 [WARNING] data_fetch: Retry 2 for https://api.polygon.io/v1/indicators/iv/SPY (status 404)
+2025-09-30 15:14:57,043 [WARNING] data_fetch: Retry 2 for https://api.polygon.io/v3/trades/SPY/options (status 404)
+2025-09-30 15:14:59,120 [WARNING] data_fetch: Retry 3 for https://api.polygon.io/v1/indicators/iv/SPY (status 404)
+2025-09-30 15:14:59,136 [WARNING] data_fetch: Retry 3 for https://api.polygon.io/v3/trades/SPY/options (status 404)
+2025-09-30 15:15:03,522 [ERROR] regime: Regime detection error: 'close'
+2025-09-30 15:15:03,523 [ERROR] __main__: Data handling error: 'close'
+2025-09-30 15:15:06,265 [WARNING] data_fetch: Retry 1 for https://api.polygon.io/v3/trades/SPY/options (status 404)
+2025-09-30 15:15:06,281 [WARNING] data_fetch: Retry 1 for https://api.polygon.io/v1/indicators/iv/SPY (status 404)
+2025-09-30 15:15:07,354 [WARNING] data_fetch: Retry 2 for https://api.polygon.io/v3/trades/SPY/options (status 404)
+2025-09-30 15:15:07,354 [WARNING] data_fetch: Retry 2 for https://api.polygon.io/v1/indicators/iv/SPY (status 404)
+2025-09-30 15:15:09,433 [WARNING] data_fetch: Retry 3 for https://api.polygon.io/v3/trades/SPY/options (status 404)
+2025-09-30 15:15:09,433 [WARNING] data_fetch: Retry 3 for https://api.polygon.io/v1/indicators/iv/SPY (status 404)
+2025-09-30 15:15:13,922 [ERROR] regime: Regime detection error: 'close'
+2025-09-30 15:15:13,923 [ERROR] __main__: Data handling error: 'close'
+2025-09-30 15:15:16,562 [WARNING] data_fetch: Retry 1 for https://api.polygon.io/v1/indicators/iv/SPY (status 404)
+2025-09-30 15:15:16,584 [WARNING] data_fetch: Retry 1 for https://api.polygon.io/v3/trades/SPY/options (status 404)
+2025-09-30 15:15:17,650 [WARNING] data_fetch: Retry 2 for https://api.polygon.io/v1/indicators/iv/SPY (status 404)
+2025-09-30 15:15:17,667 [WARNING] data_fetch: Retry 2 for https://api.polygon.io/v3/trades/SPY/options (status 404)
+2025-09-30 15:15:19,745 [WARNING] data_fetch: Retry 3 for https://api.polygon.io/v1/indicators/iv/SPY (status 404)
+2025-09-30 15:15:19,745 [WARNING] data_fetch: Retry 3 for https://api.polygon.io/v3/trades/SPY/options (status 404)
+2025-09-30 15:15:24,182 [ERROR] regime: Regime detection error: 'close'
+2025-09-30 15:15:24,182 [ERROR] __main__: Data handling error: 'close'
+2025-09-30 15:15:26,807 [WARNING] data_fetch: Retry 1 for https://api.polygon.io/v3/trades/SPY/options (status 404)
+2025-09-30 15:15:26,809 [WARNING] data_fetch: Retry 1 for https://api.polygon.io/v1/indicators/iv/SPY (status 404)
+2025-09-30 15:15:27,910 [WARNING] data_fetch: Retry 2 for https://api.polygon.io/v3/trades/SPY/options (status 404)
+2025-09-30 15:15:27,911 [WARNING] data_fetch: Retry 2 for https://api.polygon.io/v1/indicators/iv/SPY (status 404)
+2025-09-30 15:15:29,992 [WARNING] data_fetch: Retry 3 for https://api.polygon.io/v3/trades/SPY/options (status 404)
+2025-09-30 15:15:29,997 [WARNING] data_fetch: Retry 3 for https://api.polygon.io/v1/indicators/iv/SPY (status 404)
+2025-09-30 15:15:34,448 [ERROR] regime: Regime detection error: 'close'
+2025-09-30 15:15:34,448 [ERROR] __main__: Data handling error: 'close'
+2025-09-30 15:15:37,044 [WARNING] data_fetch: Retry 1 for https://api.polygon.io/v3/trades/SPY/options (status 404)
+2025-09-30 15:15:37,060 [WARNING] data_fetch: Retry 1 for https://api.polygon.io/v1/indicators/iv/SPY (status 404)
+2025-09-30 15:15:38,147 [WARNING] data_fetch: Retry 2 for https://api.polygon.io/v3/trades/SPY/options (status 404)
+2025-09-30 15:15:38,155 [WARNING] data_fetch: Retry 2 for https://api.polygon.io/v1/indicators/iv/SPY (status 404)
+2025-09-30 15:15:40,239 [WARNING] data_fetch: Retry 3 for https://api.polygon.io/v3/trades/SPY/options (status 404)
+2025-09-30 15:15:40,240 [WARNING] data_fetch: Retry 3 for https://api.polygon.io/v1/indicators/iv/SPY (status 404)
+2025-09-30 15:15:44,705 [ERROR] regime: Regime detection error: 'close'
+2025-09-30 15:15:44,705 [ERROR] __main__: Data handling error: 'close'
+2025-09-30 15:15:47,354 [WARNING] data_fetch: Retry 1 for https://api.polygon.io/v1/indicators/iv/SPY (status 404)
+2025-09-30 15:15:47,354 [WARNING] data_fetch: Retry 1 for https://api.polygon.io/v3/trades/SPY/options (status 404)
+2025-09-30 15:15:48,450 [WARNING] data_fetch: Retry 2 for https://api.polygon.io/v1/indicators/iv/SPY (status 404)
+2025-09-30 15:15:48,452 [WARNING] data_fetch: Retry 2 for https://api.polygon.io/v3/trades/SPY/options (status 404)
+2025-09-30 15:15:50,526 [WARNING] data_fetch: Retry 3 for https://api.polygon.io/v1/indicators/iv/SPY (status 404)
+2025-09-30 15:15:50,526 [WARNING] data_fetch: Retry 3 for https://api.polygon.io/v3/trades/SPY/options (status 404)
+2025-09-30 15:15:55,290 [ERROR] regime: Regime detection error: 'close'
+2025-09-30 15:15:55,290 [ERROR] __main__: Data handling error: 'close'
+2025-09-30 15:15:57,949 [WARNING] data_fetch: Retry 1 for https://api.polygon.io/v3/trades/SPY/options (status 404)
+2025-09-30 15:15:57,979 [WARNING] data_fetch: Retry 1 for https://api.polygon.io/v1/indicators/iv/SPY (status 404)
+2025-09-30 15:15:59,041 [WARNING] data_fetch: Retry 2 for https://api.polygon.io/v3/trades/SPY/options (status 404)
+2025-09-30 15:15:59,073 [WARNING] data_fetch: Retry 2 for https://api.polygon.io/v1/indicators/iv/SPY (status 404)
+2025-09-30 15:16:01,136 [WARNING] data_fetch: Retry 3 for https://api.polygon.io/v3/trades/SPY/options (status 404)
+2025-09-30 15:16:01,167 [WARNING] data_fetch: Retry 3 for https://api.polygon.io/v1/indicators/iv/SPY (status 404)
+2025-09-30 15:16:05,561 [ERROR] regime: Regime detection error: 'close'
+2025-09-30 15:16:05,561 [ERROR] __main__: Data handling error: 'close'
+2025-09-30 15:16:08,151 [WARNING] data_fetch: Retry 1 for https://api.polygon.io/v1/indicators/iv/SPY (status 404)
+2025-09-30 15:16:08,187 [WARNING] data_fetch: Retry 1 for https://api.polygon.io/v3/trades/SPY/options (status 404)
+2025-09-30 15:16:09,229 [WARNING] data_fetch: Retry 2 for https://api.polygon.io/v1/indicators/iv/SPY (status 404)
+2025-09-30 15:16:09,267 [WARNING] data_fetch: Retry 2 for https://api.polygon.io/v3/trades/SPY/options (status 404)
+2025-09-30 15:16:11,328 [WARNING] data_fetch: Retry 3 for https://api.polygon.io/v3/trades/SPY/options (status 404)
+2025-09-30 15:16:11,328 [WARNING] data_fetch: Retry 3 for https://api.polygon.io/v1/indicators/iv/SPY (status 404)
+2025-09-30 15:26:30,804 [INFO] Backtest: Fetching SPY 1Min bars from 2023-01-01 to 2023-12-31
+2025-09-30 15:26:31,497 [INFO] Backtest: Fetching QQQ 1Min bars from 2023-01-01 to 2023-12-31
+2025-09-30 15:26:31,863 [INFO] Backtest: ===== Backtest Results =====
+2025-09-30 15:26:31,863 [INFO] Backtest: trades: 0
+2025-09-30 15:26:31,863 [INFO] Backtest: final_equity: 12508.0
+2025-09-30 15:26:31,863 [INFO] Backtest: net_pnl: 0.0
+2025-09-30 15:26:31,863 [INFO] Backtest: expectancy: 0.0
+2025-09-30 15:26:31,863 [INFO] Backtest: win_rate: 0
+2025-09-30 15:26:31,863 [INFO] Backtest: sharpe: 0
+2025-09-30 15:26:31,863 [INFO] Backtest: max_drawdown: 0
+2025-09-30 15:36:40,963 [ERROR] regime: Regime detection error: string indices must be integers, not 'str'
+2025-09-30 15:40:53,022 [ERROR] regime: Regime detection error: string indices must be integers, not 'str'
+2025-09-30 15:49:58,937 [ERROR] regime: Regime detection error: string indices must be integers, not 'str'
+2025-09-30 15:52:38,805 [ERROR] regime: Regime detection error: string indices must be integers, not 'str'
+2025-09-30 15:55:39,755 [ERROR] regime: Regime detection error: string indices must be integers, not 'str'
+2025-09-30 15:57:08,820 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:19,065 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:19,371 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:19,641 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:19,928 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:20,211 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:20,481 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:20,767 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:21,035 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:21,298 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:21,589 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:21,902 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:22,191 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:22,475 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:22,740 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:23,013 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:23,283 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:23,551 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:23,821 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:24,119 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:24,378 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:24,639 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:24,901 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:25,186 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:25,453 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:25,721 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:25,991 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:26,271 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:26,547 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:26,827 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:27,087 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:27,366 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:27,631 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:27,893 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:28,165 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:28,431 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:28,701 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:28,991 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:29,272 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:29,534 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:29,808 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:30,061 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:30,330 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:30,597 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:30,861 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:31,124 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:31,401 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:31,671 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:31,960 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:32,221 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:32,491 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:32,774 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:33,031 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:33,291 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:33,551 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:33,811 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:34,091 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:34,350 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:34,613 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:34,889 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:35,165 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:35,432 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:35,698 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:35,960 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:36,226 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:36,494 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:36,770 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:37,028 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:37,285 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:37,556 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:37,826 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:38,100 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:38,376 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:38,649 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:38,915 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:39,196 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:39,467 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:39,731 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:40,017 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:40,296 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:40,558 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:40,827 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:41,105 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:41,385 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:41,665 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:41,953 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:42,233 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:42,508 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:42,770 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:43,043 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:43,306 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:43,578 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:43,845 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:44,132 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:44,398 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:44,667 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:44,949 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:45,224 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:45,497 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:45,782 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:46,063 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:46,337 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:46,616 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:46,895 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:47,195 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:47,481 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:47,764 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:48,037 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:48,309 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:48,574 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:48,867 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:49,157 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:49,455 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:49,728 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:50,007 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:50,296 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:50,573 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:50,880 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:51,169 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:51,448 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:51,731 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:52,001 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:52,296 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:52,574 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:52,850 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:53,127 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:53,399 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:53,675 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:53,943 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:54,224 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:54,496 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:54,760 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:55,023 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:55,297 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:55,589 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:55,895 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:56,155 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:56,425 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:56,696 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:56,968 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:57,246 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:57,536 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:57,799 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:58,070 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:58,334 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:58,598 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:58,868 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:59,165 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:59,441 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 15:59:59,769 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:00,043 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:00,313 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:00,598 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:00,879 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:01,168 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:01,452 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:01,725 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:01,992 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:02,257 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:02,527 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:02,798 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:03,067 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:03,332 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:03,622 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:03,888 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:04,167 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:04,440 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:04,728 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:05,014 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:05,300 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:05,575 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:05,871 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:06,161 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:06,437 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:06,737 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:07,011 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:07,276 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:07,541 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:07,826 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:08,094 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:08,368 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:08,635 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:08,900 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:09,195 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:09,464 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:09,746 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:10,010 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:10,281 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:10,557 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:10,839 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:11,168 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:11,455 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:11,730 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:12,004 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:12,308 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:12,581 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:12,854 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:13,135 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:13,401 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:13,667 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:13,956 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:14,254 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:14,518 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:14,778 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:15,053 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:15,324 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:15,602 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:15,900 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:16,168 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:16,445 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:16,730 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:17,004 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:17,261 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:17,546 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:17,824 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:18,088 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:18,371 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:18,645 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:18,910 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:19,210 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:19,484 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:19,744 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:20,023 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:20,304 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:20,583 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:20,849 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:21,106 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:21,374 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:21,654 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:21,921 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:22,199 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:22,479 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:22,748 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:23,021 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:23,287 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:23,565 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:23,847 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:24,135 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:24,400 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:24,659 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:24,943 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:25,222 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:25,494 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:25,774 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:26,053 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:26,333 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:26,607 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:26,882 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:27,140 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:27,432 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:27,698 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:27,975 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:28,235 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:28,492 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:28,775 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:29,074 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:29,361 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:29,648 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:29,934 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:30,191 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:30,459 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:30,724 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:30,988 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:31,244 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:31,540 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:31,791 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:32,058 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:32,321 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:32,609 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:32,891 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:33,153 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:33,415 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:33,692 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:33,969 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:34,251 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:34,511 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:34,775 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:35,043 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:35,328 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:35,596 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:35,867 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:36,145 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:36,418 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:36,662 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:36,932 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:37,219 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:37,474 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:37,743 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:38,046 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:38,300 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:38,571 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:38,863 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:39,160 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:39,415 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:39,684 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:39,955 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:40,250 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:40,517 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:40,774 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:41,076 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:41,398 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:41,662 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:41,958 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:42,258 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:42,534 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:42,800 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:43,059 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:43,345 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:43,607 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:43,885 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:44,184 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:44,448 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:44,724 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:45,005 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:45,275 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:45,542 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:45,836 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:46,108 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:46,442 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:46,724 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:46,990 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:47,274 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:47,539 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:47,791 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:48,076 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:48,350 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:48,637 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:48,914 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:49,285 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:49,556 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:49,834 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:50,089 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:50,371 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:50,651 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:50,919 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:51,183 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:51,455 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:51,730 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:51,995 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:52,277 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:52,552 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:52,823 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:53,091 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:53,376 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:53,644 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:53,913 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:54,206 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:54,465 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:54,758 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:55,026 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:55,308 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:55,575 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:55,858 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:56,133 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:56,408 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:56,686 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:56,985 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:57,251 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:57,527 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:57,791 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:58,076 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:58,338 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:58,627 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:58,904 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:59,195 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:59,463 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:00:59,750 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:00,016 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:00,300 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:00,570 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:00,838 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:01,107 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:01,378 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:01,647 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:01,917 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:02,178 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:02,444 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:02,714 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:02,995 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:03,271 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:03,559 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:03,829 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:04,110 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:04,396 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:04,671 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:04,950 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:05,247 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:05,514 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:05,807 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:06,074 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:06,345 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:06,618 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:06,889 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:07,165 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:07,423 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:07,696 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:07,973 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:08,253 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:08,508 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:08,791 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:09,089 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:09,354 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:09,620 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:09,903 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:10,180 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:10,448 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:10,727 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:11,020 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:11,292 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:11,576 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:11,843 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:12,138 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:12,402 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:12,673 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:12,957 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:13,222 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:13,490 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:13,753 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:14,052 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:14,308 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:14,603 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:14,896 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:15,158 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:15,431 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:15,708 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:15,995 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:16,245 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:16,508 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:16,769 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:17,039 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:17,307 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:17,576 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:17,852 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:18,125 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:18,392 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:18,667 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:18,939 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:19,226 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:19,501 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:19,773 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:20,035 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:20,294 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:20,576 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:20,857 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:21,119 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:21,377 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:21,643 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:21,910 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:22,176 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:22,446 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:22,705 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:22,961 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:23,245 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:23,511 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:23,776 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:24,053 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:24,326 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:24,599 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:24,867 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:25,141 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:25,411 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:25,668 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:25,939 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:26,227 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:26,492 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:26,771 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:27,040 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:27,302 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:27,571 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:27,839 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:28,142 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:28,433 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:28,717 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:28,993 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:29,308 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:29,602 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:29,872 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:30,157 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:30,426 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:30,708 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:30,991 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:31,269 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:31,540 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:31,809 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:32,085 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:32,355 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:32,636 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:32,893 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:33,160 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:33,443 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:33,726 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:33,994 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:34,300 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:34,568 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:34,827 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:35,101 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:35,374 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:35,642 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:35,927 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:36,211 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:36,510 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:36,853 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:37,125 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:37,405 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:37,680 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:37,936 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:38,209 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:38,480 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:38,745 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:39,036 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:39,296 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:39,566 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:39,835 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:40,105 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:40,359 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:40,629 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:40,898 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:41,178 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:41,439 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:41,708 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:41,962 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:42,281 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:42,551 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:42,806 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:43,074 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:43,349 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:43,609 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:43,881 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:44,164 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:44,453 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:44,720 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:45,002 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:45,315 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:45,596 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:45,863 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:46,154 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:46,454 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:46,720 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:46,994 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:47,274 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:47,550 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:47,833 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:48,173 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:48,447 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:48,725 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:48,990 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:49,276 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:49,567 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:49,831 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:50,120 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:50,398 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:50,669 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:50,925 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:51,206 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:51,482 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:51,759 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:52,030 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:52,306 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:52,576 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:52,852 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:53,117 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:53,381 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:53,650 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:53,912 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:54,189 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:54,454 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:54,777 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:55,082 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:55,352 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:55,621 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:55,899 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:56,164 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:56,452 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:56,737 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:57,106 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:57,390 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:57,669 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:57,940 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:58,205 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:58,475 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:58,750 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:59,043 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:59,313 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:59,581 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:01:59,852 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:00,114 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:00,391 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:00,668 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:00,934 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:01,214 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:01,485 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:01,757 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:02,033 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:02,327 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:02,599 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:02,870 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:03,144 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:03,427 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:03,698 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:03,965 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:04,243 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:04,520 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:04,787 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:05,062 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:05,342 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:05,619 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:05,894 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:06,167 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:06,431 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:06,791 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:07,098 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:07,366 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:07,639 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:07,913 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:08,184 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:08,460 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:08,724 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:09,006 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:09,291 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:09,570 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:09,852 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:10,171 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:10,473 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:10,732 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:11,001 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:11,270 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:11,557 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:11,821 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:12,099 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:12,426 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:12,695 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:12,964 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:13,228 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:13,502 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:13,772 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:14,053 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:14,314 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:14,584 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:14,860 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:15,135 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:15,421 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:15,687 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:15,958 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:16,223 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:16,494 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:16,785 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:17,061 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:17,335 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:17,602 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:17,871 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:18,144 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:18,401 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:18,683 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:19,129 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:19,506 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:19,777 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:20,034 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:20,315 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:20,581 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:20,854 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:21,120 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:21,383 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:21,644 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:21,901 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:22,173 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:22,463 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:22,724 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:22,983 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:23,264 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:23,530 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:23,810 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:24,106 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:24,373 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:24,650 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:24,918 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:25,181 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:25,456 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:25,726 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:26,003 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:26,265 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:26,538 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:26,808 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:27,098 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:27,373 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:27,634 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:27,914 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:28,197 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:28,467 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:28,735 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:29,008 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:29,314 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:29,894 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:30,170 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:30,453 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:30,715 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:30,979 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:31,246 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:31,519 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:31,786 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:32,048 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:32,328 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:32,595 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:32,861 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:33,139 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:33,413 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:33,685 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:33,946 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:34,234 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:34,498 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:34,776 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:35,091 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:35,367 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:35,633 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:35,898 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:36,186 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:36,453 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:36,721 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:36,988 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:37,253 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:37,517 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:37,783 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:38,046 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:38,308 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:38,593 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:38,872 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:39,152 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:39,418 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:39,720 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:39,999 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:40,265 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:40,534 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:40,800 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:41,062 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:41,338 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:41,624 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:41,893 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:42,169 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:42,435 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:42,714 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:42,977 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:43,249 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:43,529 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:43,801 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:44,098 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:44,386 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:44,654 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:44,927 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:45,205 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:45,484 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:45,756 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:46,019 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:46,285 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:58,151 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:58,446 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:58,708 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:58,979 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:59,248 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:59,519 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:02:59,803 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:03:00,070 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:03:00,370 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:03:00,649 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:03:00,932 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:03:01,231 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:03:01,513 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:03:01,795 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:03:02,064 [INFO] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:05:18,775 [WARNING] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:09:51,370 [WARNING] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:15:21,101 [WARNING] ml_model: ⚠️ Not enough trades to train ML model
+2025-09-30 16:17:47,562 [INFO] Backtest: ===== Options Backtest Results =====
+2025-09-30 16:17:47,562 [INFO] Backtest: trades: 0
+2025-09-30 16:17:47,562 [INFO] Backtest: final_equity: 12508.0
+2025-09-30 16:17:47,562 [INFO] Backtest: net_pnl: 0.0
+2025-09-30 16:17:47,562 [INFO] Backtest: expectancy: 0
+2025-09-30 16:17:47,562 [INFO] Backtest: win_rate: 0
+2025-09-30 16:17:47,562 [INFO] Backtest: profit_factor: inf
+2025-09-30 16:17:47,562 [INFO] Backtest: avg_duration_min: 0
+2025-09-30 16:17:47,562 [INFO] Backtest: sharpe: 0
+2025-09-30 16:17:47,562 [INFO] Backtest: max_drawdown: 0
+2025-09-30 16:19:40,521 [INFO] Backtest: Fetched 32369 bars for SPY
+2025-09-30 16:19:46,235 [INFO] Backtest: ===== Options Backtest Results =====
+2025-09-30 16:19:46,236 [INFO] Backtest: trades: 0
+2025-09-30 16:19:46,236 [INFO] Backtest: final_equity: 12508.0
+2025-09-30 16:19:46,236 [INFO] Backtest: net_pnl: 0.0
+2025-09-30 16:19:46,236 [INFO] Backtest: expectancy: 0
+2025-09-30 16:19:46,237 [INFO] Backtest: win_rate: 0
+2025-09-30 16:19:46,237 [INFO] Backtest: profit_factor: inf
+2025-09-30 16:19:46,237 [INFO] Backtest: avg_duration_min: 0
+2025-09-30 16:19:46,237 [INFO] Backtest: sharpe: 0
+2025-09-30 16:19:46,238 [INFO] Backtest: max_drawdown: 0
+2025-09-30 16:21:20,027 [INFO] Backtest: Fetched 32369 bars for SPY
+2025-09-30 16:21:20,236 [DEBUG] Backtest: SPY 2024-01-02 09:42:00+00:00 signals: {'vwap_ema_trend': -1, 'mean_reversion': 0, 'orb': -1}, score=-2.0
+2025-09-30 16:21:20,510 [DEBUG] Backtest: Contracts fetched for SPY on 2024-01-02: 10
+2025-09-30 16:21:26,249 [INFO] Backtest: ===== Options Backtest Results =====
+2025-09-30 16:21:26,249 [INFO] Backtest: trades: 0
+2025-09-30 16:21:26,249 [INFO] Backtest: final_equity: 12508.0
+2025-09-30 16:21:26,249 [INFO] Backtest: net_pnl: 0.0
+2025-09-30 16:21:26,249 [INFO] Backtest: expectancy: 0
+2025-09-30 16:21:26,249 [INFO] Backtest: win_rate: 0
+2025-09-30 16:21:26,249 [INFO] Backtest: profit_factor: inf
+2025-09-30 16:21:26,249 [INFO] Backtest: avg_duration_min: 0
+2025-09-30 16:21:26,249 [INFO] Backtest: sharpe: 0
+2025-09-30 16:21:26,249 [INFO] Backtest: max_drawdown: 0
+2025-09-30 16:22:50,013 [INFO] Backtest: Fetched 181283 bars for SPY
+2025-09-30 16:22:50,189 [DEBUG] Backtest: SPY 2024-01-02 09:42:00+00:00 signals: {'vwap_ema_trend': -1, 'mean_reversion': 0, 'orb': -1}, score=-2.0
+2025-09-30 16:22:50,488 [DEBUG] Backtest: Contracts fetched for SPY on 2024-01-02: 10
+2025-09-30 18:16:39,707 [INFO] system_check: 🚀 Running system check...
+2025-09-30 18:16:39,707 [INFO] system_check: ✅ Dependency OK: pandas
+2025-09-30 18:16:39,707 [INFO] system_check: ✅ Dependency OK: numpy
+2025-09-30 18:16:39,707 [INFO] system_check: ✅ Dependency OK: aiohttp
+2025-09-30 18:16:39,707 [INFO] system_check: ✅ Dependency OK: yfinance
+2025-09-30 18:16:39,707 [INFO] system_check: ✅ Dependency OK: customtkinter
+2025-09-30 18:16:40,026 [INFO] system_check: ✅ Alpaca connectivity OK
+2025-09-30 18:16:40,555 [INFO] system_check: ✅ Polygon connectivity OK
+2025-09-30 18:16:41,018 [INFO] system_check: ✅ Discord webhook OK
+2025-09-30 18:16:41,416 [WARNING] data_fetch: Retry 1 for https://api.polygon.io/v3/trades/SPY/options (status 404)
+2025-09-30 18:16:41,422 [WARNING] data_fetch: Retry 1 for https://api.polygon.io/v1/indicators/iv/SPY (status 404)
+2025-09-30 18:16:42,511 [WARNING] data_fetch: Retry 2 for https://api.polygon.io/v1/indicators/iv/SPY (status 404)
+2025-09-30 18:16:42,511 [WARNING] data_fetch: Retry 2 for https://api.polygon.io/v3/trades/SPY/options (status 404)
+2025-09-30 18:16:44,577 [WARNING] data_fetch: Retry 3 for https://api.polygon.io/v1/indicators/iv/SPY (status 404)
+2025-09-30 18:16:44,592 [WARNING] data_fetch: Retry 3 for https://api.polygon.io/v3/trades/SPY/options (status 404)
+2025-09-30 18:16:49,695 [ERROR] __main__: Data handling error: 'close'
+2025-09-30 18:16:52,715 [WARNING] data_fetch: Retry 1 for https://api.polygon.io/v1/indicators/iv/SPY (status 404)
+2025-09-30 18:16:52,715 [WARNING] data_fetch: Retry 1 for https://api.polygon.io/v3/trades/SPY/options (status 404)
+2025-09-30 18:16:53,785 [WARNING] data_fetch: Retry 2 for https://api.polygon.io/v1/indicators/iv/SPY (status 404)
+2025-09-30 18:16:53,800 [WARNING] data_fetch: Retry 2 for https://api.polygon.io/v3/trades/SPY/options (status 404)
+2025-09-30 18:16:55,864 [WARNING] data_fetch: Retry 3 for https://api.polygon.io/v1/indicators/iv/SPY (status 404)
+2025-09-30 18:16:55,881 [WARNING] data_fetch: Retry 3 for https://api.polygon.io/v3/trades/SPY/options (status 404)
+2025-09-30 18:17:00,323 [ERROR] __main__: Data handling error: 'close'
+2025-09-30 18:17:02,870 [WARNING] data_fetch: Retry 1 for https://api.polygon.io/v3/trades/SPY/options (status 404)
+2025-09-30 18:17:02,897 [WARNING] data_fetch: Retry 1 for https://api.polygon.io/v1/indicators/iv/SPY (status 404)
+2025-09-30 18:17:03,968 [WARNING] data_fetch: Retry 2 for https://api.polygon.io/v3/trades/SPY/options (status 404)
+2025-09-30 18:17:03,970 [WARNING] data_fetch: Retry 2 for https://api.polygon.io/v1/indicators/iv/SPY (status 404)
+2025-09-30 18:17:06,058 [WARNING] data_fetch: Retry 3 for https://api.polygon.io/v1/indicators/iv/SPY (status 404)
+2025-09-30 18:17:06,074 [WARNING] data_fetch: Retry 3 for https://api.polygon.io/v3/trades/SPY/options (status 404)
+2025-09-30 18:17:10,551 [ERROR] __main__: Data handling error: 'close'
+2025-09-30 18:17:13,160 [WARNING] data_fetch: Retry 1 for https://api.polygon.io/v1/indicators/iv/SPY (status 404)
+2025-09-30 18:17:13,160 [WARNING] data_fetch: Retry 1 for https://api.polygon.io/v3/trades/SPY/options (status 404)
+2025-09-30 18:17:14,236 [WARNING] data_fetch: Retry 2 for https://api.polygon.io/v3/trades/SPY/options (status 404)
+2025-09-30 18:17:14,237 [WARNING] data_fetch: Retry 2 for https://api.polygon.io/v1/indicators/iv/SPY (status 404)
+2025-09-30 18:17:16,317 [WARNING] data_fetch: Retry 3 for https://api.polygon.io/v1/indicators/iv/SPY (status 404)
+2025-09-30 18:17:16,318 [WARNING] data_fetch: Retry 3 for https://api.polygon.io/v3/trades/SPY/options (status 404)
+2025-09-30 18:17:20,742 [ERROR] __main__: Data handling error: 'close'
+2025-09-30 18:17:23,449 [WARNING] data_fetch: Retry 1 for https://api.polygon.io/v1/indicators/iv/SPY (status 404)
+2025-09-30 18:17:23,450 [WARNING] data_fetch: Retry 1 for https://api.polygon.io/v3/trades/SPY/options (status 404)
+2025-09-30 18:17:24,526 [WARNING] data_fetch: Retry 2 for https://api.polygon.io/v1/indicators/iv/SPY (status 404)
+2025-09-30 18:17:24,526 [WARNING] data_fetch: Retry 2 for https://api.polygon.io/v3/trades/SPY/options (status 404)
+2025-09-30 18:17:26,607 [WARNING] data_fetch: Retry 3 for https://api.polygon.io/v1/indicators/iv/SPY (status 404)
+2025-09-30 18:17:26,607 [WARNING] data_fetch: Retry 3 for https://api.polygon.io/v3/trades/SPY/options (status 404)
+2025-09-30 18:17:31,078 [ERROR] __main__: Data handling error: 'close'
+2025-09-30 18:17:33,827 [WARNING] data_fetch: Retry 1 for https://api.polygon.io/v3/trades/SPY/options (status 404)
+2025-09-30 18:17:33,827 [WARNING] data_fetch: Retry 1 for https://api.polygon.io/v1/indicators/iv/SPY (status 404)
+2025-09-30 18:17:34,924 [WARNING] data_fetch: Retry 2 for https://api.polygon.io/v1/indicators/iv/SPY (status 404)
+2025-09-30 18:17:34,924 [WARNING] data_fetch: Retry 2 for https://api.polygon.io/v3/trades/SPY/options (status 404)
+2025-09-30 18:17:37,016 [WARNING] data_fetch: Retry 3 for https://api.polygon.io/v1/indicators/iv/SPY (status 404)
+2025-09-30 18:17:37,025 [WARNING] data_fetch: Retry 3 for https://api.polygon.io/v3/trades/SPY/options (status 404)
+2025-09-30 18:17:41,479 [ERROR] __main__: Data handling error: 'close'
+2025-09-30 18:17:44,173 [WARNING] data_fetch: Retry 1 for https://api.polygon.io/v3/trades/SPY/options (status 404)
+2025-09-30 18:17:44,184 [WARNING] data_fetch: Retry 1 for https://api.polygon.io/v1/indicators/iv/SPY (status 404)
+2025-09-30 18:17:45,258 [WARNING] data_fetch: Retry 2 for https://api.polygon.io/v3/trades/SPY/options (status 404)
+2025-09-30 18:17:45,286 [WARNING] data_fetch: Retry 2 for https://api.polygon.io/v1/indicators/iv/SPY (status 404)
+2025-09-30 18:17:47,337 [WARNING] data_fetch: Retry 3 for https://api.polygon.io/v3/trades/SPY/options (status 404)
+2025-09-30 18:17:47,380 [WARNING] data_fetch: Retry 3 for https://api.polygon.io/v1/indicators/iv/SPY (status 404)
+2025-09-30 18:17:51,802 [ERROR] __main__: Data handling error: 'close'
+2025-09-30 18:17:54,475 [WARNING] data_fetch: Retry 1 for https://api.polygon.io/v1/indicators/iv/SPY (status 404)
+2025-09-30 18:17:54,475 [WARNING] data_fetch: Retry 1 for https://api.polygon.io/v3/trades/SPY/options (status 404)
+2025-09-30 18:17:55,554 [WARNING] data_fetch: Retry 2 for https://api.polygon.io/v1/indicators/iv/SPY (status 404)
+2025-09-30 18:17:55,555 [WARNING] data_fetch: Retry 2 for https://api.polygon.io/v3/trades/SPY/options (status 404)
+2025-09-30 18:17:57,636 [WARNING] data_fetch: Retry 3 for https://api.polygon.io/v1/indicators/iv/SPY (status 404)
+2025-09-30 18:17:57,638 [WARNING] data_fetch: Retry 3 for https://api.polygon.io/v3/trades/SPY/options (status 404)
+2025-09-30 18:18:02,077 [ERROR] __main__: Data handling error: 'close'
+2025-09-30 18:18:04,684 [WARNING] data_fetch: Retry 1 for https://api.polygon.io/v3/trades/SPY/options (status 404)
+2025-09-30 18:18:04,685 [WARNING] data_fetch: Retry 1 for https://api.polygon.io/v1/indicators/iv/SPY (status 404)
+2025-09-30 18:18:05,788 [WARNING] data_fetch: Retry 2 for https://api.polygon.io/v3/trades/SPY/options (status 404)
+2025-09-30 18:18:05,793 [WARNING] data_fetch: Retry 2 for https://api.polygon.io/v1/indicators/iv/SPY (status 404)
+2025-09-30 18:18:07,872 [WARNING] data_fetch: Retry 3 for https://api.polygon.io/v3/trades/SPY/options (status 404)
+2025-09-30 18:18:07,872 [WARNING] data_fetch: Retry 3 for https://api.polygon.io/v1/indicators/iv/SPY (status 404)
+2025-09-30 18:18:12,264 [ERROR] __main__: Data handling error: 'close'
+2025-09-30 18:18:14,933 [WARNING] data_fetch: Retry 1 for https://api.polygon.io/v3/trades/SPY/options (status 404)
+2025-09-30 18:18:14,934 [WARNING] data_fetch: Retry 1 for https://api.polygon.io/v1/indicators/iv/SPY (status 404)
+2025-09-30 18:18:16,042 [WARNING] data_fetch: Retry 2 for https://api.polygon.io/v3/trades/SPY/options (status 404)
+2025-09-30 18:18:16,042 [WARNING] data_fetch: Retry 2 for https://api.polygon.io/v1/indicators/iv/SPY (status 404)
+2025-09-30 18:18:18,126 [WARNING] data_fetch: Retry 3 for https://api.polygon.io/v3/trades/SPY/options (status 404)
+2025-09-30 18:18:18,134 [WARNING] data_fetch: Retry 3 for https://api.polygon.io/v1/indicators/iv/SPY (status 404)
+2025-09-30 18:18:22,579 [ERROR] __main__: Data handling error: 'close'
+2025-09-30 18:18:25,272 [WARNING] data_fetch: Retry 1 for https://api.polygon.io/v3/trades/SPY/options (status 404)
+2025-09-30 18:18:25,284 [WARNING] data_fetch: Retry 1 for https://api.polygon.io/v1/indicators/iv/SPY (status 404)
+2025-09-30 18:18:26,365 [WARNING] data_fetch: Retry 2 for https://api.polygon.io/v3/trades/SPY/options (status 404)
+2025-09-30 18:18:26,365 [WARNING] data_fetch: Retry 2 for https://api.polygon.io/v1/indicators/iv/SPY (status 404)
+2025-09-30 18:18:28,444 [WARNING] data_fetch: Retry 3 for https://api.polygon.io/v3/trades/SPY/options (status 404)
+2025-09-30 18:18:28,444 [WARNING] data_fetch: Retry 3 for https://api.polygon.io/v1/indicators/iv/SPY (status 404)
+2025-09-30 18:18:32,848 [ERROR] __main__: Data handling error: 'close'
+2025-09-30 18:18:35,739 [WARNING] data_fetch: Retry 1 for https://api.polygon.io/v1/indicators/iv/SPY (status 404)
+2025-09-30 18:18:35,739 [WARNING] data_fetch: Retry 1 for https://api.polygon.io/v3/trades/SPY/options (status 404)
+2025-09-30 18:18:36,818 [WARNING] data_fetch: Retry 2 for https://api.polygon.io/v3/trades/SPY/options (status 404)
+2025-09-30 18:18:36,818 [WARNING] data_fetch: Retry 2 for https://api.polygon.io/v1/indicators/iv/SPY (status 404)
+2025-09-30 18:18:38,896 [WARNING] data_fetch: Retry 3 for https://api.polygon.io/v3/trades/SPY/options (status 404)
+2025-09-30 18:18:38,896 [WARNING] data_fetch: Retry 3 for https://api.polygon.io/v1/indicators/iv/SPY (status 404)
+2025-09-30 18:18:43,331 [ERROR] __main__: Data handling error: 'close'
+2025-09-30 18:18:45,936 [WARNING] data_fetch: Retry 1 for https://api.polygon.io/v1/indicators/iv/SPY (status 404)
+2025-09-30 18:18:45,937 [WARNING] data_fetch: Retry 1 for https://api.polygon.io/v3/trades/SPY/options (status 404)
+2025-09-30 18:18:47,018 [WARNING] data_fetch: Retry 2 for https://api.polygon.io/v3/trades/SPY/options (status 404)
+2025-09-30 18:18:47,020 [WARNING] data_fetch: Retry 2 for https://api.polygon.io/v1/indicators/iv/SPY (status 404)
+2025-09-30 18:18:49,095 [WARNING] data_fetch: Retry 3 for https://api.polygon.io/v3/trades/SPY/options (status 404)
+2025-09-30 18:18:49,095 [WARNING] data_fetch: Retry 3 for https://api.polygon.io/v1/indicators/iv/SPY (status 404)
+2025-09-30 18:18:53,542 [ERROR] __main__: Data handling error: 'close'

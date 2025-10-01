@@ -1,3 +1,5 @@
+# Test GitHub sync
+
 """
 logic.py - Trade planning & risk management for AutoTraderPro
 """

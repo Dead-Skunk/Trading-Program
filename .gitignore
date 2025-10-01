@@ -1,0 +1,18 @@
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+
+# Ignore virtual environments
+venv/
+env/
+
+# Ignore logs and journals
+logs/
+journal/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore config files with secrets (optional if you want to hide API keys)
+config_secrets.py

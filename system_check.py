@@ -24,14 +24,21 @@ log = get_logger(__name__)
 # ==============================
 def check_dependencies() -> bool:
     """Verify required Python dependencies are installed."""
-    deps = ["pandas", "numpy", "aiohttp", "yfinance", "customtkinter", "scikit-learn"]
+    deps = [
+        ("pandas", "pandas"),
+        ("numpy", "numpy"),
+        ("aiohttp", "aiohttp"),
+        ("yfinance", "yfinance"),
+        ("customtkinter", "customtkinter"),
+        ("scikit-learn", "sklearn"),
+    ]
     ok = True
-    for dep in deps:
+    for dep_name, module_name in deps:
         try:
-            importlib.import_module(dep)
-            log.info(f"✅ Dependency OK: {dep}")
+            importlib.import_module(module_name)
+            log.info(f"✅ Dependency OK: {dep_name}")
         except ImportError:
-            log.error(f"❌ Missing dependency: {dep} | try: pip install {dep}")
+            log.error(f"❌ Missing dependency: {dep_name} | try: pip install {dep_name}")
             ok = False
     return ok
 

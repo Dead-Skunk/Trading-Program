@@ -92,6 +92,18 @@ class AutoTraderDashboard(ctk.CTk):
         except Exception as e:
             log.error(f"GUI feed update error: {e}")
 
+    def log_terminal(self, msg: str) -> None:
+        """Backward-compatible alias for terminal logs."""
+        self.update_feed(msg)
+
+    def update_trades(self, trades: list[Dict[str, Any]]) -> None:
+        """Backward-compatible trade list updater."""
+        self.update_contracts({"trades": trades})
+
+    def update_pnl(self, stats: Dict[str, Any]) -> None:
+        """Display PnL/capital stats in analysis panel."""
+        self.update_analysis({"pnl": stats})
+
     # ==============================
     # Symbol + Arm Handlers
     # ==============================
@@ -144,3 +156,7 @@ class AutoTraderDashboard(ctk.CTk):
             self.destroy()
         except Exception as e:
             log.error(f"GUI shutdown error: {e}")
+
+
+# Backward-compatible name expected by main.py
+AutoTraderGUI = AutoTraderDashboard

@@ -13,6 +13,11 @@ from config import JOURNAL_DIR, get_logger
 log = get_logger(__name__)
 
 
+# In-memory runtime trade cache for live session analytics
+_open_trades: Dict[str, Dict[str, Any]] = {}
+_closed_trades: list[Dict[str, Any]] = []
+
+
 # ==============================
 # Load Trades
 # ==============================
@@ -155,3 +160,58 @@ def plot_equity_curve(df: pd.DataFrame, starting_equity: float = 25000.0) -> Non
         plt.show()
     except Exception as e:
         log.error(f"Plot failed: {e}")
+
+
+def track_trade(trade: Dict[str, Any]) -> None:
+    """Track an opened trade in runtime memory."""
+    trade_id = trade.get("id")
+    if not trade_id:
+        return
+    _open_trades[trade_id] = dict(trade)
+
+
+def close_trade(trade: Dict[str, Any]) -> None:
+    """Move trade from open cache to closed cache."""
+    trade_id = trade.get("id")
+    if trade_id:
+        _open_trades.pop(trade_id, None)
+    _closed_trades.append(dict(trade))
+
+
+def capital_health(closed_trades: list[Dict[str, Any]], equity: float) -> Dict[str, float]:
+    """Compute simple account-health metrics for dashboard."""
+    pnls = [float(t.get("pnl", 0.0)) for t in closed_trades]
+    gross_pnl = float(sum(pnls))
+    drawdown = 0.0
+    if pnls:
+        curve = np.cumsum(pnls)
+        peaks = np.maximum.accumulate(curve)
+        drawdown = float(np.max(peaks - curve))
+    return {
+        "closed_trades": float(len(closed_trades)),
+        "gross_pnl": gross_pnl,
+        "drawdown": drawdown,
+        "equity": float(equity),
+    }
+
+
+def pnl_attribution(closed_trades: list[Dict[str, Any]]) -> Dict[str, Any]:
+    """Aggregate PnL by strategy and direction."""
+    by_strategy: Dict[str, float] = {}
+    long_pnl = 0.0
+    short_pnl = 0.0
+
+    for trade in closed_trades:
+        pnl = float(trade.get("pnl", 0.0))
+        strategy = trade.get("strategy", "unknown")
+        by_strategy[strategy] = by_strategy.get(strategy, 0.0) + pnl
+        if float(trade.get("confidence", 0.0)) >= 0:
+            long_pnl += pnl
+        else:
+            short_pnl += pnl
+
+    return {
+        "by_strategy": by_strategy,
+        "long_pnl": float(long_pnl),
+        "short_pnl": float(short_pnl),
+    }

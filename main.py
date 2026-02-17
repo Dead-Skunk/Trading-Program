@@ -81,15 +81,17 @@ def handle_data(data):
         }
 
         # Generate signal
-        signal = generate_signals(bars, context)
+        signal_data = {"bars": bars, "context": context}
+        signal = generate_signals(current_symbol, signal_data, weights={})
 
-        if not signal.get("blocked") and account.can_trade():
+        if signal.get("signal", 0) != 0 and account.can_trade():
             confidence = signal["score"]
             entry = context["price"]
 
             trade = plan_trade(account, entry, bars, confidence)
             if trade["valid"]:
-                trade["strategy"] = max(signal["signals"], key=signal["signals"].get, default="multi")
+                strategies = signal.get("strategies", {})
+                trade["strategy"] = max(strategies, key=strategies.get, default="multi")
                 active_trades[trade["id"]] = trade
 
                 # Save with features
@@ -99,8 +101,8 @@ def handle_data(data):
 
                 if app:
                     app.log_terminal(f"📈 Entry: {trade['strategy']} | {entry}")
-                    app.analysis_text.insert("end", f"Signal: {signal}\n")
-                    app.ticket_text.insert("end", f"New Trade: {trade}\n")
+                    app.update_analysis(f"Signal: {signal}\nContext: {context}")
+                    app.update_contracts({"trade": trade})
 
         # Heartbeat
         if time.time() - last_heartbeat >= HEARTBEAT_INTERVAL_MIN * 60:
@@ -130,7 +132,7 @@ def handle_data(data):
 
                 if app:
                     app.log_terminal(f"📉 Exit: {outcome} | PnL={pnl:.2f}")
-                    app.ticket_text.insert("end", f"Exit Trade: {trade}\n")
+                    app.update_contracts({"exit": trade})
 
         # Kill switch
         if calc_var(account.equity) >= account.equity * 0.05:
@@ -176,7 +178,8 @@ def start_data_loop():
 def main():
     global app
 
-    if not run_system_check():
+    check_results = run_system_check()
+    if not check_results.get("overall", False):
         log.error("❌ System check failed. Exiting.")
         return
 
